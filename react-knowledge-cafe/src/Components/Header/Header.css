@@ -1,0 +1,7 @@
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(96, 71, 236, 0.10);
+    padding:10px;
+}
