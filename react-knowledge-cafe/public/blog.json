@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "image":"../src/images/1.jpg",
+        "Author name":"Md. Shahnewaj Al Hasan",
+        "Blog title":"ES6 Javascript",
+        "Author image":"../src/images/boy1.png",
+        "Read time":3,
+        "Publish Date":"january 3, 2024",
+        "hastags":["beginner","es6"]
+   
+    },
+    {
+        "id": 2,
+        "image":"../src/images/2.jpg",
+        "Author name":"Ahmed Alvi",
+        "Blog title":"Most important cyber security skill you need to know",
+        "Author image":"../src/images/boy2.png",
+        "Read time":13,
+        "Publish Date":"March 13, 2024",
+        "hastags":["beginner","sql"]
+   
+    },
+    {
+        "id": 3,
+        "image":"../src/images/3.jpg",
+        "Author name":"Md Abdullah Al Jisan",
+        "Blog title":"Easy Python tricks to make your life easier",
+        "Author image":"../src/images/boy3.png",
+        "Read time":8,
+        "Publish Date":"October 06, 2024",
+        "hastags":["beginner","important"]
+   
+    },
+    {
+        "id": 1,
+        "image":"../src/images/4.jpg",
+        "Author name":"Md. Roky",
+        "Blog title":"Things you need to know for being an AI developper",
+        "Author image":"../src/images/boy4.png",
+        "Read time":10,
+        "Publish Date":"july, 2024",
+        "hastags":["beginner","numpy"]
+   
+    }
+]
