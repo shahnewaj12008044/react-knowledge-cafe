@@ -1,15 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Blogs.css'
 
 
 const Blogs = () => {
+    const [blogs, setBlogs] = useState([]);
+    useEffect( ()=>{
+        fetch('blog.json')
+         .then(res => res.json())
+          .then(data => setBlogs(data))
+
+    },[])
+    console.log(blogs)
     return (
         <div className = "blogs-container">
             <div className = 'single-blog'>
-                <h1>This is single Blog</h1> 
+                {
+                    // blogs.map( blog =>)
+                }
+
             </div>
             <div className='blogs-list'>
-                <h1>Blog list is here</h1>
+                <h3>Blog list is here</h3>
             </div>
         </div>
     );
