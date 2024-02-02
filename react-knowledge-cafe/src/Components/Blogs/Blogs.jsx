@@ -11,7 +11,7 @@ const Blogs = () => {
           .then(data => setBlogs(data))
 
     },[])
-    console.log(blogs)
+    // console.log(blogs)
     return (
         <div className = "blogs-container">
             <div className = 'single-blog'>
