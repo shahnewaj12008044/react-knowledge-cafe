@@ -8,19 +8,29 @@ const Blogs = () => {
     //all hooks one for managing blogs and another for bookmarks
     const [blogs, setBlogs] = useState([]);
     const [bookmarks, setBookmarks] = useState([]);
+    const [time,setTime] = useState(0);
 
 
     /*handle add to cart function : declared in parent(blogs) then passed to blog 
     through props to blog cause the info has to be shown in
      bookmark which is not a child of blog*/
-    const HandleaddToBookmarks = (blog) =>{
-        const {id,Read_time,Blog_title } = blog;
+    const handleaddToBookmarks = (blog) =>{
+        const {id,Blog_title } = blog;
         //setting the three necessary info to bookmarks along with previous one 
         //as use state is immutable
-        const newBookmarks = [...bookmarks,{id,Read_time,Blog_title }];
+        const newBookmarks = [...bookmarks,{id,Blog_title }];
         setBookmarks(newBookmarks)
     }
-    console.log(bookmarks)
+
+
+    //time function
+    const handleTime = (newTime) =>{
+        setTime(time + newTime)
+    }
+    // console.log(time)
+
+
+    // console.log(bookmarks)
     useEffect( ()=>{
         fetch('blog.json')
          .then(res => res.json())
@@ -28,14 +38,15 @@ const Blogs = () => {
 
     },[])
     // console.log(blogs)
-    let time = 0;
     return (
         <div className = "blogs-container">
             <div className = 'single-blog'>
                 {
                     blogs.map( blog =><Blog 
                         key = {blog.id}
-                         HandleaddToBookmarks = {HandleaddToBookmarks}
+                         handleaddToBookmarks = {handleaddToBookmarks}
+                         handleTime = {handleTime
+                        }
                           blog = {blog}></Blog>)
                 }
 
