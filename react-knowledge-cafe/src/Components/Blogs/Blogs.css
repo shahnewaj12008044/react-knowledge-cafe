@@ -4,3 +4,11 @@
    margin:15px;
    gap:10px;
 }
+.total-time{
+   background-color: rgba(17, 17, 17, 0.1);
+   padding:20px;
+   border-radius: 8px;
+   text-align: center;
+   color: rgba(96, 71, 236, 1);
+   border: 2px solid #6047EC;
+}

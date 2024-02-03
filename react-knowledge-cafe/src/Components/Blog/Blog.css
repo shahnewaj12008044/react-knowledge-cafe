@@ -18,3 +18,9 @@
     margin:5px;
     align-items: center;
 }
+.blog{
+    margin-top:20px;
+}
+ a{
+    text-decoration: underline solid blue 2px;
+ }

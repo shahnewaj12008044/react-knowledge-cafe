@@ -1,0 +1,12 @@
+.bookmark{
+    background-color: rgba(17, 17, 17, 0.05);
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+.bookmark-title{
+    background-color: white;
+    padding:20px;
+    border-radius: 8px;
+
+}
