@@ -1,7 +1,9 @@
 import React from "react";
 import "./Blog.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBookmark } from '@fortawesome/free-regular-svg-icons'
+import { faBookmark as faSolidBookmark} from '@fortawesome/free-solid-svg-icons';
+import { faBookmark as faRegularBookmark } from '@fortawesome/free-regular-svg-icons';
+
 
 
 const Blog = (props) => {
@@ -9,6 +11,7 @@ const Blog = (props) => {
   const { blog } = props;
   const handleaddToBookmarks = props.handleaddToBookmarks;
   const handleTime = props.handleTime;
+  const isBookmarked = props.isBookmarked;
   return (
     <div className="blog">
       <img className="blog-image" src={blog.image} alt="" />
@@ -23,7 +26,7 @@ const Blog = (props) => {
         <p>{blog.Read_time} min read  
         <a style={{marginLeft:"5px"}} ><FontAwesomeIcon 
         onClick={()=>handleaddToBookmarks(blog)} 
-        icon={faBookmark} /></a>
+        icon={isBookmarked ? faSolidBookmark : faRegularBookmark} /></a>
          </p>
       </div>
       <h1>How to get your first job as a self-taught programmer</h1>
