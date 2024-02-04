@@ -12,3 +12,9 @@
    color: rgba(96, 71, 236, 1);
    border: 2px solid #6047EC;
 }
+
+@media only screen and (max-width:576px){
+   .blogs-container{
+      grid-template-columns: 1fr;
+   }
+}

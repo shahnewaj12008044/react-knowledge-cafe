@@ -73,6 +73,7 @@ const Blogs = () => {
                 bookmarks = { bookmarks}
                 ></Bookmarks>
             </div>
+            
             <ToastContainer />
         </div>
     );
