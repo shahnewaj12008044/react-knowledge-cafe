@@ -1,10 +1,10 @@
 [
     {
         "id": 1,
-        "image":"../src/images/1.jpg",
+        "image":"https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "Author_name":"Md. Shahnewaj Al Hasan",
         "Blog_title":"ES6 Javascript",
-        "Author_image":"../src/images/boy1.png",
+        "Author_image":"https://media.istockphoto.com/id/521824455/photo/female-official-potrait.jpg?s=1024x1024&w=is&k=20&c=z1huvDvCY36Wx1fcbolTQ-owLJrPklhuvPCZKkfwlqg=",
         "Read_time":3,
         "Publish_Date":"january 3, 2024",
         "hastags":["beginner","es6"]
@@ -12,10 +12,10 @@
     },
     {
         "id": 2,
-        "image":"../src/images/2.png",
+        "image":"https://media.istockphoto.com/id/901609212/photo/press-enter-button-on-the-keyboard-computer-shield-cyber-key-lock-security-system-abstract.jpg?s=1024x1024&w=is&k=20&c=-tbX_4RrVyDMdgV0j9XirAsGKjBmUDDrY2anKqcbnEY=",
         "Author_name":"Ahmed Alvi",
         "Blog_title":"Most important cyber security skill you need to know",
-        "Author_image":"../src/images/boy2.png",
+        "Author_image":"https://media.istockphoto.com/id/1133604495/photo/hacker-dark-face-using-laptop.jpg?s=1024x1024&w=is&k=20&c=PUUPYqZ8vRSpycJPr5DrBsRtBGgcJYdgRM84Qu9McY0=",
         "Read_time":13,
         "Publish_Date":"March 13, 2024",
         "hastags":["beginner","sql"]
@@ -23,10 +23,10 @@
     },
     {
         "id": 3,
-        "image":"../src/images/3.png",
+        "image":"https://media.istockphoto.com/id/1403644222/photo/illustration-demonstrates-the-routing-of-ip-packets-throughout-the-internet-a-lan-computer.jpg?s=1024x1024&w=is&k=20&c=kQh11O7U5NQFC8kqdHT4zJ2X_V7NpE1NdlC8zTEjSdM=",
         "Author_name":"Md Abdullah Al Jisan",
         "Blog_title":"Easy Python tricks to make your life easier",
-        "Author_image":"../src/images/girl1.jpg",
+        "Author_image":"https://media.istockphoto.com/id/1456829027/photo/senior-software-developer-working-on-a-laptop-in-an-office.jpg?s=1024x1024&w=is&k=20&c=QDXt1nPkiHt8fKYGek51EWSH7Gken8RZ4rRC-nybiro=",
         "Read_time":8,
         "Publish_Date":"October 06, 2024",
         "hastags":["beginner","important"]
@@ -34,10 +34,10 @@
     },
     {
         "id": 4,
-        "image":"../src/images/4.jpg",
+        "image":"https://media.istockphoto.com/id/1495819409/photo/digital-mind-brain-artificial-intelligence-concept.jpg?s=1024x1024&w=is&k=20&c=AOs5JEz8sdE2wwrZmRSSd0dL8qj00ebD8tNY_AWb1yk=",
         "Author_name":"Md. Roky",
         "Blog_title":"Things you need to know for being an AI developper",
-        "Author_image":"../src/images/girl2.jpg",
+        "Author_image":"https://media.istockphoto.com/id/1442975224/photo/glasses-coding-and-reflection-with-business-man-reading-software-development-analytics.jpg?s=1024x1024&w=is&k=20&c=lZc4rJLZtA5jbwRbRclAEhxkCsSExtHqg75P2C-4opE=",
         "Read_time":10,
         "Publish_Date":"july, 2024",
         "hastags":["beginner","numpy"]

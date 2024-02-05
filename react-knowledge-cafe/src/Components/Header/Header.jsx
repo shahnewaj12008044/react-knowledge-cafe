@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../images/profile.png'
+import img from '../../assets/images/profile.png'
 import './Header.css'
 
 const Header = () => {
